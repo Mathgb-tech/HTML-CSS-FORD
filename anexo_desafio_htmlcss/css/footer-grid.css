@@ -1,0 +1,29 @@
+.footer-container{
+    background-color:#1b357e;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 25px;
+}
+
+.footer-container .ford-logo-footer{
+    justify-self: end;
+    align-self: center;
+}
+
+.imagens-logos {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.imagens-logos img {
+    width: 85%;
+    justify-self: center;
+}
+
+.imagens-logos p {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
