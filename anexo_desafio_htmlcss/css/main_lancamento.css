@@ -13,14 +13,35 @@
 
 .main-container {
     display: grid;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: 1fr auto auto;
+}
+
+.button {
+    justify-self: center;
+    padding: 20px;
+}
+
+button {
+    padding: 20px;
+    border-radius: 20px;
+    width: 15em;
+    background-color: #1f45c2;
+    color: #ffff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+button:hover {
+    background-color: blue;
+    transform: translatey(-10px);
 }
 
 .card-group {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     justify-self: center;
-    gap: 20px;
+    gap: 200px;
     padding: 15px;
 }
 
@@ -28,6 +49,19 @@
    width: 100%;
    max-width: 400px;
    margin: 20px 0;
+   border: 2px solid gray;
+   border-radius: 20px;
+   box-shadow: 1px 1px 4px black;
+   padding: 30px;
+   transition: 0.9s all;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.imagem-carro {
+    justify-self: center;
 }
 
 .info_carro {
@@ -73,7 +107,7 @@ img {
 
 iframe {
     width: 100%;
-    aspect-ratio: 16 /9;
+    aspect-ratio: 35 /8;
     height: auto;
 }
 
