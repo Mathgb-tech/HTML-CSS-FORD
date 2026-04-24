@@ -56,6 +56,12 @@ button:hover {
    transition: 0.9s all;
 }
 
+.card span {
+    color: #1f45c2;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 .card:hover {
     transform: translateY(-20px);
 }
@@ -118,10 +124,6 @@ iframe {
 }
 
 @media (max-width: 767px) {
-    .header-container {
-        text-align: center;
-        padding: 10px;
-    }
 
     .nav-bar {
         display: flex;
