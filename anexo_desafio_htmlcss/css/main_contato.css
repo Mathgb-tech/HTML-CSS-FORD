@@ -2,10 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 body {
-    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -13,4 +12,141 @@ body {
 
 .main {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    gap: 40px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 10px;
+}
+
+.formulario h3 {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+.imagem {
+    display: flex;
+    align-items: flex-end;
+}
+
+.forms {
+    display: flex;
+    align-items: flex-start;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 20%;
+    background-color: #1f45c2;
+    color: #ffff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+button:hover {
+    background-color: blue;
+    transform: translatey(-10px);
+}
+
+@media (max-width: 767px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 4px;
+    }
+
+    input {
+        width: 100%;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+
+    button {
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        width: 50%;
+        background-color: #1f45c2;
+        color: #ffff;
+        font-size: 20px;
+        cursor: pointer;
+        transition: 0.4s ease;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 4px;
+    }
+
+    input {
+        width: 100%;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+
+    button {
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        width: 50%;
+        background-color: #1f45c2;
+        color: #ffff;
+        font-size: 20px;
+        cursor: pointer;
+        transition: 0.4s ease;
+    }
 }
