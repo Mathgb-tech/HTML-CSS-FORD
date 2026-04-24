@@ -52,7 +52,7 @@ button:hover {
    border-radius: 20px;
    box-shadow: 1px 1px 4px black;
    padding: 30px;
-   transition: 0.9s all;
+   transition: 0.5s all;
 }
 
 .card span {
@@ -63,6 +63,7 @@ button:hover {
 
 .card:hover {
     transform: translateY(-20px);
+    box-shadow: 1px 10px 8px rgba(0, 0, 0, 0.295);
 }
 
 .imagem-carro {
