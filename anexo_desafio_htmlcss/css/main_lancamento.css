@@ -35,7 +35,7 @@ button {
 
 button:hover {
     background-color: blue;
-    transform: translatey(-10px);
+    transform: scale(1.1);
 }
 
 .secao-texto {
@@ -171,4 +171,26 @@ iframe {
         aspect-ratio: 12 / 10;
         height: auto;
     }
+
+    button {
+        width: 12em;
+    }
+
+    .secao-texto {
+        max-width: 100%;
+        padding: 30px 20px;
+        margin: 20px 10px;
+        border-left: 4px solid #003478;
+        justify-self: center;
+    }
+
+    .secao-texto h3 {
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+    .secao-texto p {
+        font-size: 1rem;
+    }
+
 }
