@@ -27,14 +27,25 @@
     width: 100%;
 }
 
+.paragrafo span {
+    color: #1139a7f5;
+}
+
+.paragrafo a {
+    color: #1139a7f5;
+}
+
 .imagem {
     width: 100%;
 }
 
-
-
 @media(max-width: 768px){
     .paragrafo {
         text-align: center;
+        font-size: 14px;
+    }
+
+    main {
+        padding: 30px;
     }
 }

@@ -13,8 +13,6 @@ body {
 .main {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
     padding-top: 50px;
     gap: 40px;
 }
@@ -29,8 +27,14 @@ body {
 .formulario {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 100%;
     width: 45%;
     gap: 10px;
+}
+
+.formulario button {
+    align-self: flex-end;
 }
 
 .formulario h3 {
@@ -44,11 +48,30 @@ input {
     border: 1px solid #ccc;
 }
 
+#selecao {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#mensagem {
+    width: 100%;
+    height: 20%;
+    text-align: start;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    padding: 8px;
+}
 
 .imagem {
     display: flex;
+    height: 100%;
     align-items: flex-end;
+    justify-content: center;
 }
+
 
 .forms {
     display: flex;
@@ -60,7 +83,7 @@ button {
     border-radius: 10px;
     border: none;
     padding: 10px;
-    width: 20%;
+    width: 50%;
     background-color: #1f45c2;
     color: #ffff;
     font-size: 20px;
@@ -103,12 +126,24 @@ button:hover {
         border-radius: 10px;
         border: none;
         padding: 10px;
-        width: 50%;
         background-color: #1f45c2;
         color: #ffff;
         font-size: 20px;
         cursor: pointer;
         transition: 0.4s ease;
+    }
+
+    .formulario button {
+        width: 100%;
+    }
+
+    #mensagem {
+        padding: 8px;
+        height: 200px;
+    }
+
+    section {
+        padding: 40px 20px;
     }
 }
 

@@ -1,15 +1,9 @@
 .footer-container {
     background-color: #1b357e;
     display: grid;
-    grid-template-columns: auto auto 1fr 0.2fr;
-    padding: 10px;
+    grid-template-columns: auto auto 1fr auto;
+    padding: 20px;
 }
-
-
-.ford-logo-footer {
-    justify-self: end;
-}
-
 
 .footer-container p {
     color: white;
@@ -19,7 +13,12 @@
 }
 
 .redes, .direitos, .ford-logo-footer{
-    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+.direitos {
+    justify-content: center;
 }
 
 .imagens-logos {
